@@ -41,7 +41,7 @@ variable "organization" {
 variable "profiles" {
   default     = []
   description = "list of Chassis Profiles to Assign to the Policy."
-  type = list(string)
+  type        = list(string)
 }
 
 variable "tags" {
