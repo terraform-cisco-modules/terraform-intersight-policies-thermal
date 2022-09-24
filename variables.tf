@@ -1,7 +1,3 @@
-terraform {
-  experiments = [module_variable_optional_attrs]
-}
-
 #____________________________________________________________
 #
 # Thermal Policy Variables Section.

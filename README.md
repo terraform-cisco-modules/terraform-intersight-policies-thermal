@@ -13,9 +13,10 @@ module "thermal_policy" {
   source  = "terraform-cisco-modules/policies-thermal/intersight"
   version = ">= 1.0.1"
 
-  description  = "default Thermal Policy."
-  name         = "default"
-  organization = "default"
+  description      = "default Thermal Policy."
+  fan_control_mode = "Balanced"
+  name             = "default"
+  organization     = "default"
 }
 ```
 
@@ -81,6 +82,7 @@ $env:TF_VAR_secretkey="<secret-key-file-location>""
 
 | Name | Version |
 |------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=1.3.0 |
 | <a name="requirement_intersight"></a> [intersight](#requirement\_intersight) | >=1.0.32 |
 ## Providers
 
