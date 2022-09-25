@@ -1,4 +1,4 @@
-module "thermal_policy" {
+module "thermal" {
   source  = "terraform-cisco-modules/policies-thermal/intersight"
   version = ">= 1.0.1"
 
