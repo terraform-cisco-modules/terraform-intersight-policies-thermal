@@ -52,7 +52,7 @@ func TestFull(t *testing.T) {
 	"Name":        "{{ .name }}",
 	"Description": "{{ .name }} Thermal Policy.",
 
-	"FanControlMode": "Balanced",
+	"FanControlMode": "Balanced"
 }
 `
 	// Validate that what is in the Intersight API matches the expected
